@@ -7,6 +7,7 @@
     co = checkout
     ci = commit
     br = branch
+    pu = "git push -u origin $(git symbolic-ref --short HEAD)"
 
 [color]
     ui = auto
