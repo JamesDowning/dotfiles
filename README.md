@@ -27,5 +27,5 @@ My daily tools:
 
 ## TODO:
 
-- Add Kitty config
-- Add Startship config
+- Add zshrc
+- Add gitconfig
