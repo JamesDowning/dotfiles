@@ -7,7 +7,17 @@
     co = checkout
     ci = commit
     br = branch
-    pu = "!git push -u origin \"$(git symbolic-ref --short HEAD)\""
+    lg = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(auto)%d%Creset %s %C(cyan)(%cr) %C(green)<%an>%Creset'
+    amend = commit --amend
+    unstage = reset HEAD --
+    last = log -1 HEAD
 
 [color]
     ui = auto
+
+[fetch]
+    prune = true
+
+[push]
+    autoSetupRemote = true
+    default = current
