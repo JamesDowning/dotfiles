@@ -1,0 +1,12 @@
+[user]
+    name = James Downing
+    email = jamesdowning15@gmail.com
+
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+
+[color]
+    ui = auto
