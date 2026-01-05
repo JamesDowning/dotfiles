@@ -14,5 +14,8 @@ setopt INC_APPEND_HISTORY      # append each command to history immediately
 setopt SHARE_HISTORY           # share history across multiple sessions
 setopt EXTENDED_HISTORY        # saves time in seconds along with command
 
+# Load fzf
+source <(fzf --zsh)
+
 # Load starship
 eval "$(starship init zsh)"
