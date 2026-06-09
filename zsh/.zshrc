@@ -2,6 +2,9 @@
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+# Add user-installed Python command line tools.
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+
 # History settings
 HISTFILE=~/.zsh_history
 HISTSIZE=10000                 # entries in memory
